@@ -17,7 +17,7 @@ export function Contact() {
               Борлуулалт алдахаа болих цаг боллоо.
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-muted">
-              Nexon Shop AI таны дэлгүүрт хэрхэн ажиллахыг үнэгүй үзүүлье.
+              Sello AI таны дэлгүүрт хэрхэн ажиллахыг үнэгүй үзүүлье.
               Messenger-ээр бичих эсвэл залгаарай, нэг өдрийн дотор тохируулна.
             </p>
 

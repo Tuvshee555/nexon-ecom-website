@@ -2,7 +2,7 @@
 //  Single source of truth for content + contact details.
 //
 //  >>> FILL THESE IN before going live <<<
-//  - facebook: your Nexon Shop AI Facebook page. For a "message us" link,
+//  - facebook: your Sello AI Facebook page. For a "message us" link,
 //    use the m.me short link, e.g. "https://m.me/nexonshopai".
 //  - phone:    e.g. "+976 8800 0000"
 //  - email:    e.g. "sales@nexon.mn"

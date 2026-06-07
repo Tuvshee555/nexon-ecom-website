@@ -56,7 +56,7 @@ export function ChatDemo() {
                 <p className="truncate text-sm font-semibold">Миний Дэлгүүр</p>
                 <p className="flex items-center gap-1.5 text-xs text-muted">
                   <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                  Nexon Shop AI хариулж байна
+                  Sello AI хариулж байна
                 </p>
               </div>
             </div>

@@ -15,7 +15,7 @@ export function Footer() {
                 <ChatTeardropDots size={20} weight="fill" />
               </span>
               <span className="text-[17px] font-bold tracking-tight">
-                Nexon Shop AI
+                Sello AI
               </span>
             </div>
             <p className="mt-4 leading-relaxed text-muted">

@@ -4,7 +4,7 @@ const steps = [
   {
     n: "01",
     title: "Холбоно",
-    body: "Таны Facebook, Instagram хуудсыг Nexon Shop AI-тай холбоно.",
+    body: "Таны Facebook, Instagram хуудсыг Sello AI-тай холбоно.",
   },
   {
     n: "02",

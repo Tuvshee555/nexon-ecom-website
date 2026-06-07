@@ -10,13 +10,13 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg/80 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
-        {/* Brand. TODO: swap the mark for the real Nexon Shop AI logo. */}
+        {/* Brand. TODO: swap the mark for the real Sello AI logo. */}
         <a href="#top" className="flex items-center gap-2.5">
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-accent text-accent-ink">
             <ChatTeardropDots size={20} weight="fill" />
           </span>
           <span className="text-[17px] font-bold tracking-tight">
-            Nexon Shop AI
+            Sello AI
           </span>
         </a>
 

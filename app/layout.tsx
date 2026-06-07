@@ -11,12 +11,12 @@ const golos = Golos_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Nexon Shop AI - Онлайн дэлгүүрт зориулсан AI худалдагч",
+  title: "Sello AI - Онлайн дэлгүүрт зориулсан AI худалдагч",
   description:
     "Facebook, Instagram мессежид агшин зуур хариулж, бодит цагийн үлдэгдлээс үнэ, тоо ширхгийг хэлээд худалдан авах линк илгээдэг Монгол AI туслах. 24/7 ажиллаж, борлуулалт алдуулахгүй.",
   metadataBase: new URL("https://nexonshop.ai"),
   openGraph: {
-    title: "Nexon Shop AI - Онлайн дэлгүүрт зориулсан AI худалдагч",
+    title: "Sello AI - Онлайн дэлгүүрт зориулсан AI худалдагч",
     description:
       "Үйлчлүүлэгчийн «байгаа юу? хэдэн төгрөг вэ? үлдсэн үү?» гэсэн асуултад бодит үлдэгдлээс шууд хариулж, худалдан авах линк илгээнэ.",
     locale: "mn_MN",

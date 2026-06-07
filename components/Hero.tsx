@@ -51,7 +51,7 @@ export function Hero() {
 
           <Reveal delay={0.1}>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
-              Nexon Shop AI таны Facebook, Instagram мессежид агшин зуур хариулж,
+              Sello AI таны Facebook, Instagram мессежид агшин зуур хариулж,
               бодит цагийн үлдэгдэл, үнийг хэлээд худалдан авах линк илгээнэ. 24/7.
             </p>
           </Reveal>
