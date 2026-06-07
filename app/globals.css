@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/*  Semantic design tokens. One emerald accent, locked for the page.   */
+/*  Light is primary; dark flips cleanly via prefers-color-scheme.     */
+/* ------------------------------------------------------------------ */
+@theme inline {
+  --font-sans: var(--font-golos), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+}
+
+:root {
+  --bg: #f7f7f4;
+  --surface: #ffffff;
+  --surface-2: #efefe9;
+  --ink: #14151a;
+  --muted: #56575e;
+  --border: #e5e5df;
+  --accent: #047857; /* emerald-700: button fill + accent text on light */
+  --accent-hover: #036148;
+  --accent-soft: #ecfdf5; /* emerald-50 wash */
+  --accent-ink: #ffffff; /* text sitting on the accent fill */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0d0c;
+    --surface: #14181a;
+    --surface-2: #0f1413;
+    --ink: #f3f5f2;
+    --muted: #9aa19c;
+    --border: rgba(255, 255, 255, 0.1);
+    --accent: #34d399; /* emerald-400: bright fill + accent text on dark */
+    --accent-hover: #6ee7b7;
+    --accent-soft: rgba(52, 211, 153, 0.1);
+    --accent-ink: #052e1b; /* dark text sitting on the bright accent fill */
+  }
+}
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+
+  /* offset anchored sections for the sticky nav */
+  section[id] {
+    scroll-margin-top: 84px;
+  }
+}
+
+/* typing-dot animation for the chat demo */
+@keyframes nx-blink {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+.nx-dot {
+  animation: nx-blink 1.2s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
